@@ -1,4 +1,4 @@
-ALGORİTMA VE PORGRAMLAMA PROJE
+ALGORİTMA VE PROGRAMLAMA PROJESİ
 Kullanıcıdan bir metin alınacaktır. Kullanıcıdan alınan metin üzerinde önceden 
 belirlenmiş olan bigram ve trigramların frekansları hesaplanacaktır (frekans hesaplaması: her
 bir bigramın ve her bir trigramın bu metinde yüzde kaç kez geçtiğinin bulunması). Bu
