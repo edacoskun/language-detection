@@ -1,11 +1,16 @@
-# ALGORİTMA VE PROGRAMLAMA PROJESİ
+# Algorithm and Programming Project - Language Detection
 
-Kullanıcıdan bir metin alınacaktır. Kullanıcıdan alınan metin üzerinde önceden 
-belirlenmiş olan bigram ve trigramların frekansları hesaplanacaktır (frekans hesaplaması: her
-bir bigramın ve her bir trigramın bu metinde yüzde kaç kez geçtiğinin bulunması). Bu
-hesaplamalar sonucunda elde edilen frekans matrisi ile taslak kod içerisinde verilen
-frekans matrisi (bu matriste İngilizce ve Almanca dillerinin frekans değerleri yer almaktadır)
-karşılaştırılacaktır. İngilizce ve Almanca dillerinin her birinin frekansları ile elde edilen
-frekans matrisi arasında ayrı ayrı uzaklık hesabı yapılacaktır (öklid uzaklığı).
-Hangi dil ile daha küçük uzaklık değeri elde edildiyse, metnin yazıldığı dil olarak o dil tahmin
-edilecektir.
+This program detects the language of a given text by analyzing the frequencies of certain bigrams and trigrams. It currently supports English and German languages.
+
+## Usage
+
+1. Compile the program using a C compiler.
+2. Run the executable.
+3. Enter the text for language detection when prompted.
+
+## Features
+
+- Filters the input text and converts it to lowercase.
+- Calculates the frequencies of bigrams and trigrams in the text.
+- Measures the distances between the calculated frequencies and pre-defined frequency values for English and German.
+- Determines the language of the text based on the calculated distances.
